@@ -8,16 +8,13 @@ import Body from './common/commonBody'
 export default function App() {
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
+      <BrowserRouter>
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/content1" element={<Content1 />} />
-        <Route path="/content2" element={<Content2 />} />
-          {/* <Route element={<Body />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/content1" element={<Content1 />} />
-            <Route path="/content2" element={<Content2 />} />
-          </Route> */}
+          <Route element={<Body />}>
+            <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+            <Route path={`${process.env.PUBLIC_URL}/content1`} element={<Content1 />} />
+            <Route path={`${process.env.PUBLIC_URL}/content2`} element={<Content2 />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
