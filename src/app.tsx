@@ -8,8 +8,7 @@ import Body from './common/commonBody'
 export default function App() {
   return (
     <>
-    <span>test</span>
-      {/* <BrowserRouter basename='{process.env.PUBLIC_URL}'>
+      <BrowserRouter basename='{process.env.PUBLIC_URL}'>
         <Routes>
           <Route element={<Body />}>
             <Route path="/" element={<Home />} />
@@ -17,7 +16,7 @@ export default function App() {
             <Route path="/content2" element={<Content2 />} />
           </Route>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </>
   )
 }
