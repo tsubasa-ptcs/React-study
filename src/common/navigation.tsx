@@ -11,15 +11,15 @@ export default function Navigation() {
         variant="dark"
         className="col-12"
       >
-        <Navbar.Brand href="/React-study/">
+        <Navbar.Brand href="/">
           {/* <img src={LOGO} width="30" height="30" alt="React Bootstrap logo" /> */}
           React Study
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/React-study/content1">Reactって？</Nav.Link>
-            <Nav.Link href="/React-study/content2">Reactを書いてみる</Nav.Link>
+            <Nav.Link href="/content1">Reactって？</Nav.Link>
+            <Nav.Link href="/content2">Reactを書いてみる</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
