@@ -8,7 +8,7 @@ import Body from './common/commonBody'
 export default function App() {
   return (
     <>
-      <BrowserRouter basename="React-study">
+      <BrowserRouter basename="">
         <Routes>
           <Route element={<Body />}>
             <Route path="/" element={<Home />} />
