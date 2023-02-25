@@ -8,12 +8,12 @@ import Body from './common/commonBody'
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="https://tsubasa-ptcs.github.io/React-study">
         <Routes>
           <Route element={<Body />}>
-            <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
-            <Route path={`${process.env.PUBLIC_URL}/content1`} element={<Content1 />} />
-            <Route path={`${process.env.PUBLIC_URL}/content2`} element={<Content2 />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/content1" element={<Content1 />} />
+            <Route path="/content2" element={<Content2 />} />
           </Route>
         </Routes>
       </BrowserRouter>
