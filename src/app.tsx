@@ -8,7 +8,7 @@ import Body from './common/commonBody'
 export default function App() {
   return (
     <>
-      <BrowserRouter basename="https://tsubasa-ptcs.github.io/React-study">
+      <BrowserRouter basename="React-study">
         <Routes>
           <Route element={<Body />}>
             <Route path="/" element={<Home />} />
