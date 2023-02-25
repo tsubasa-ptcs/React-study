@@ -13,7 +13,7 @@ export default function Navigation() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className='mr-auto'>
             <Nav.Link href="/content1">Reactって？</Nav.Link>
-            <Nav.Link href='#'>content2</Nav.Link>
+            <Nav.Link href='/content2'>Reactを書いてみる</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
