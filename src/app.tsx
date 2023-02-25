@@ -11,7 +11,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<Body />}>
-            <Route path="/" element={<Home />} />
+            <Route path="/tsubasa-ptcs.github.io/React-study/" element={<Home />} />
             <Route path="/content1" element={<Content1 />} />
             <Route path="/content2" element={<Content2 />} />
           </Route>
