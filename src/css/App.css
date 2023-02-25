@@ -1,0 +1,115 @@
+body {
+  background-color: #edf2f6;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  border-left: 0.3rem solid;
+  border-color: #0679f5;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h3 {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f6f6fa;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: solid 3px #d7d7d7;
+}
+
+h3::before {
+  content: '';
+  border-left: 2px dotted;
+  margin-right: 0.5rem;
+}
+
+p {
+  line-height: 1.8rem;
+  margin-left: 1rem;
+}
+
+pre {
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 5px;
+  background: #404041;
+  color: #ffffff;
+  white-space: pre-wrap;
+  margin-left: 1rem;
+}
+
+.contents {
+  padding: 0.8rem 0;
+  display: flex;
+  font-family: '游ゴシック';
+}
+
+.main-content {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.toc {
+  background-color: #ffffff;
+  margin-left: 1rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  align-self: flex-start;
+  position: sticky;
+  top: 5px;
+}
+
+.toc-list {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.toc-list li::before {
+  top: 0.6rem;
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 0.9rem;
+  background-color: #368be6;
+}
+
+.toc-list-item {
+  padding-bottom: 0.5rem;
+}
+
+.is-active-link {
+  font-weight: 700;
+}
+
+.clc-area {
+  margin-left: 1rem;
+}
+
+.clc-text {
+  border: 1px solid #626263;
+}
+
+.clc-text:focus {
+  border: 2px solid #006aff;
+  z-index: 10;
+  outline: 0;
+}
+
+.h3-toc {
+  margin-top: 2.5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  height: 100%;
+  margin-top: auto;
+}
