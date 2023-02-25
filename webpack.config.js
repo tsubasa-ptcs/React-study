@@ -9,6 +9,10 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+    }
     ],
   },
   resolve: {
@@ -18,5 +22,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     publicPath: 'dist/',
+  },
+  devServer: {
+    publicPath: '/dist/',
+    hot: true,
+    open: true,
+    historyApiFallback: true,
   }
 }
