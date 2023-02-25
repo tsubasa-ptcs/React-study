@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import tocbot from "tocbot";
+import React, { useEffect } from 'react'
+import tocbot from 'tocbot'
 
 export default function Toc() {
   useEffect(() => {
@@ -14,7 +14,5 @@ export default function Toc() {
     return () => tocbot.destroy()
   }, [])
 
-  return (
-    <div className="toc"></div>
-  )
+  return <div className="toc"></div>
 }

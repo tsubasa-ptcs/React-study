@@ -8,7 +8,7 @@ export default function Body() {
   return (
     <>
       <Navigation />
-      <div className='wrapper'>
+      <div className="wrapper">
         <Container fluid className="contents">
           <Outlet />
         </Container>
