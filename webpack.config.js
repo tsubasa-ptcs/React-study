@@ -12,7 +12,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
-    }
+      }
     ],
   },
   resolve: {
@@ -28,5 +28,6 @@ module.exports = {
     hot: true,
     open: true,
     historyApiFallback: true,
+    openPage: 'React-study',
   }
 }
