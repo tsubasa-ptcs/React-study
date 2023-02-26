@@ -5,6 +5,7 @@
   "scripts": {
     "start": "webpack serve --mode=development",
     "build": "webpack --mode=production",
+    "postbuild": "cp ./index.html ./404.html",
     "deploy": "gh-pages -d .",
     "format": "prettier --write \"./src/**/*.{ts,tsx}\""
   },
