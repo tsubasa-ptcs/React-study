@@ -28,6 +28,6 @@ module.exports = {
     hot: true,
     open: true,
     historyApiFallback: true,
-    openPage: 'React-study',
+    // openPage: 'React-study',
   }
 }
