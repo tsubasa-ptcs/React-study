@@ -19,7 +19,7 @@ module.exports = {
     extensions: ['.js', '.ts', '.tsx'],
   },
   output: {
-    path: path.resolve(__dirname, 'React-study/dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     publicPath: 'React-study/dist/',
   },
