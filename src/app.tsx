@@ -9,7 +9,7 @@ import Body from './common/commonBody'
 export default function App() {
   return (
     <>
-      <BrowserRouter basename="">
+      <BrowserRouter basename="React-study">
         <Routes>
           <Route element={<Body />}>
             <Route path="/" element={<Home />} />
