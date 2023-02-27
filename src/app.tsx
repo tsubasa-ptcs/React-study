@@ -15,7 +15,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/content1" element={<Content1 />} />
             <Route path="/content2" element={<Content2 />} />
-            <Route path='*' element={<Error />}/>
+            <Route path='/*' element={<Error />}/>
           </Route>
         </Routes>
       </BrowserRouter>
